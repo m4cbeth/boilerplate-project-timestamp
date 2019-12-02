@@ -35,7 +35,7 @@ app.get("/api/timestamp/:time", function(req, res){
     res.json({unix: unixTest, "utc": utcTime})
     
   } else {
-    res.json({"unix": null, "utc" : "Invalid Date"})
+    res.json({"unix": null, "utc" : "Invalid Date" })
   }
 });
 
